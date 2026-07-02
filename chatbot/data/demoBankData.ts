@@ -1,0 +1,66 @@
+export const customers = [
+  {
+    customerId: "1",
+    firstName: "Joshua",
+    lastName: "Hall",
+    accountType: "Current",
+    accountNumber: "1000001234",
+    accountBalance: 1313.38,
+    loanStatus: "Rejected",
+    loanType: "Mortgage",
+    cardType: "Credit Card",
+    creditLimit: 5000,
+    creditCardBalance: 1200,
+  },
+  {
+    customerId: "2",
+    firstName: "Ram",
+    lastName: "Sharma",
+    accountType: "Savings",
+    accountNumber: "1000005678",
+    accountBalance: 45000,
+    loanStatus: "Approved",
+    loanType: "Personal Loan",
+    cardType: "Debit Card",
+    creditLimit: 0,
+    creditCardBalance: 0,
+  },
+]
+
+export const transactions = [
+  {
+    customerId: "1",
+    transactionId: "TXN001",
+    date: "2024-06-01",
+    type: "Withdrawal",
+    amount: 250,
+  },
+  {
+    customerId: "1",
+    transactionId: "TXN002",
+    date: "2024-06-03",
+    type: "Deposit",
+    amount: 1200,
+  },
+  {
+    customerId: "1",
+    transactionId: "TXN003",
+    date: "2024-06-05",
+    type: "Card Payment",
+    amount: 75,
+  },
+  {
+    customerId: "2",
+    transactionId: "TXN004",
+    date: "2024-06-02",
+    type: "Deposit",
+    amount: 5000,
+  },
+  {
+    customerId: "2",
+    transactionId: "TXN005",
+    date: "2024-06-06",
+    type: "ATM Withdrawal",
+    amount: 1000,
+  },
+]
